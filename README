@@ -1,0 +1,26 @@
+* What's this
+
+  it's a n-body benchmark souces that are compatible 
+  with The Computer Language Benchamarks Game.
+
+* License
+
+  written by Usagi Ito:
+    src/nbody.dart
+  
+    BSD License
+      http://www.opensource.org/licenses/bsd-license
+
+  the other srouce code:
+
+    The Computer Language Benchamarks Game - License
+      http://shootout.alioth.debian.org/license.php
+
+* Contact & Copyright
+
+  E-Mail  : usagi@WonderRabbitProject.net
+  Twitter : @USAGI_WRP
+  Facebook: https://www.facebook.com/usagi.wrp
+
+  (C) 2012 Usagi Ito @ Wonder Rabbit Project.
+
