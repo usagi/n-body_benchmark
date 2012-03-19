@@ -9,12 +9,12 @@ main(){
 
   var s = new solar_system();
   
-  print(s.energy);
+  print(s.energy.toStringAsFixed(constant.fixed_digit));
 
   for(var c = 0; c < n; ++c)
     s.advance(constant.dt);
 
-  print(s.energy);
+  print(s.energy.toStringAsFixed(constant.fixed_digit));
 
 }
 
@@ -169,6 +169,7 @@ class body{
 
 class constant{
 
+  static final int fixed_digit = 9;
   static final int default_advance = 10000;
   static final double solar_mass = 4.0 * Math.PI * Math.PI;
   static final double days_per_year = 365.24;
