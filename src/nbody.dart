@@ -170,8 +170,7 @@ class body{
 class constant{
 
   static final int default_advance = 10000;
-  static final double pi = 3.141592653589793;
-  static final double solar_mass = 4.0 * pi * pi;
+  static final double solar_mass = 4.0 * Math.PI * Math.PI;
   static final double days_per_year = 365.24;
   static final double dt = 0.01;
   static final List<double>
