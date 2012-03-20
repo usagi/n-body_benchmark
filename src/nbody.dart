@@ -1,4 +1,15 @@
-//#library('nbody');
+/*
+  This is the compatible designed for 
+  "The Computer Language Benchmarks Game", INFORMAL.
+  
+  (C) 2012 Usagi Ito<usagi@WonderRabbitProject.net>
+  License: BSD; http://www.opensource.org/licenses/bsd-license
+
+  See also:
+    https://github.com/usagi/n-body_benchmark
+    http://shootout.alioth.debian.org/
+    https://alioth.debian.org/tracker/?func=detail&atid=413100&aid=313577&group_id=30402
+*/
 
 main(){
 

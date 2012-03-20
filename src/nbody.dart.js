@@ -288,6 +288,9 @@ NumImplementation.prototype.$negate = function() {
 NumImplementation.prototype.hashCode = function() {
   'use strict'; return this & 0x1FFFFFFF;
 }
+NumImplementation.prototype.toStringAsFixed = function(fractionDigits) {
+  'use strict'; return this.toFixed(fractionDigits);
+}
 // ********** Code for Collections **************
 function Collections() {}
 Collections.collectionToString = function(c) {
@@ -743,10 +746,10 @@ function main() {
   })
   ();
   var s = new solar_system();
-  print$(s.get$energy());
+  print$(s.get$energy().toStringAsFixed((9)));
   for (var c = (0);
    $lt$(c, n); (c = $add$(c, (1)))) s.advance((0.01));
-  print$(s.get$energy());
+  print$(s.get$energy().toStringAsFixed((9)));
 }
 //  ********** Globals **************
 function $static_init(){
